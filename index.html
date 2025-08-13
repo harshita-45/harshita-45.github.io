@@ -1,62 +1,115 @@
-<!-- Banner -->
-<img src="" alt="Banner" width="100%">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: linear-gradient(135deg, #1e1e1e, #3a3a3a);
+      color: white;
+      text-align: center;
+    }
 
-<h1 align="center" style="color:cyan;">Hi 👋, I'm Harshita Singh</h1>
-<h3 align="center" style="color:red;">A passionate developer from India</h3>
+    h1, h3, h2 {
+      color: red;
+    }
 
-<p align="center">
-  <a href="https://github.com/harshita-45">
-    <img src="https://img.shields.io/badge/View%20My%20GitHub-FF0000?style=for-the-badge&logo=github&logoColor=white" alt="View My GitHub">
-  </a>
-</p>
+    button {
+      background-color: red;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      font-size: 16px;
+    }
 
-<!-- Typing effect -->
-[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=24&duration=3000&pause=1000&color=FF0000&center=true&vCenter=true&width=500&lines=Full+Stack+Developer;;Tech+Enthusiast;)](https://git.io/typing-svg)
+    button:hover {
+      background-color: darkred;
+    }
 
----
+    .typing {
+      font-size: 20px;
+      margin-top: 10px;
+      height: 30px;
+    }
 
-## <span style="color:red;">✨ About Me</span>
-I am a **Information Technology student** with a passion for **Web Development, Python Projects, and UI Design**.  
-I enjoy building projects that combine **creativity and functionality** while exploring new technologies.  
+    .section {
+      margin: 40px 20px;
+      padding: 20px;
+      background: rgba(255, 255, 255, 0.05);
+      border-radius: 10px;
+    }
 
----
+    .section h2 {
+      margin-bottom: 20px;
+    }
 
-## <span style="color:red;">🎓 Education</span>
+    .skills img {
+      width: 50px;
+      height: 50px;
+      margin: 10px;
+    }
 
-<p align="center">
-  <img src="https://img.shields.io/badge/-Bachelor%20of%20Technology%20(B.Tech)%20in%20CSE-FF0000?style=for-the-badge&logo=graduation-cap&logoColor=white">
-  <br>
-  <sub>Dr. A.P.J. Abdul Kalam Technical University (AKTU), Lucknow<br>2024 – Present</sub>
-</p>
+    .education-block {
+      background: rgba(255, 255, 255, 0.1);
+      margin: 10px auto;
+      padding: 15px;
+      border-radius: 8px;
+      max-width: 400px;
+    }
+  </style>
+</head>
+<body>
 
-<p align="center">
-  <img src="https://img.shields.io/badge/-Higher%20Secondary%20(Class%2012)-FF0000?style=for-the-badge&logo=book&logoColor=white">
-  <br>
-  <sub>CBSE Board<br>2023-2024</sub>
-</p>
+  <h1>Hi, I'm Harshita Singh</h1>
+  <h3>Welcome to My Portfolio</h3>
+  <button onclick="window.open('https://github.com/harshita-45','_blank')">View My GitHub</button>
 
-<p align="center">
-  <img src="https://img.shields.io/badge/-Secondary%20(Class%2010)-FF0000?style=for-the-badge&logo=school&logoColor=white">
-  <br>
-  <sub>CBSE Board<br>2021-2022</sub>
-</p>
+  <div class="typing" id="typing"></div>
 
----
+  <div class="section">
+    <h2><b><u>About Me</u></b></h2>
+    <p>I am a passionate Information technology student who loves coding, learning new technologies, and building creative projects. I aim to develop innovative solutions that make life easier.</p>
+  </div>
 
-## <span style="color:red;">💡 Skills</span>
-![Python](https://img.shields.io/badge/Python-3776AB.svg?style=for-the-badge&logo=python&logoColor=white)
-![HTML5](https://img.shields.io/badge/HTML5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
-![C](https://img.shields.io/badge/C-00599C.svg?style=for-the-badge&logo=c&logoColor=white)
+  <div class="section">
+    <h2><b><u>Education</u></b></h2>
+    <div class="education-block">BTech in Computer Science - AKTU University 2024-current</div>
+    <div class="education-block">Intermediate - 2023-2024</div>
+    <div class="education-block">High School - 2021-2022</div>
+  </div>
 
----
+  <div class="section skills">
+    <h2><b><u>Skills</u></b></h2>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/c/c3/Python-logo-notext.svg" alt="Python">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/6/61/HTML5_logo_and_wordmark.svg" alt="HTML">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/d/d5/CSS3_logo_and_wordmark.svg" alt="CSS">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/1/19/C_Logo.png" alt="C Language">
+  </div>
 
-## <span style="color:red;">📫 Connect with me</span>
-I’m always open to **collaborations** and **interesting conversations**.  
-Feel free to reach out if you’d like to **work together or just say hi**.  
+  <div class="section">
+    <h2><b><u>Connect With Me</u></b></h2>
+    <p>If you would like to collaborate or just say hi, feel free to reach out!</p>
+    <p>I’m always open to discussing new projects and ideas.</p>
+    <button onclick="window.location.href='harshitasinghsrmcem@gmail.com'">Email Me</button>
+  </div>
 
-<p align="center">
-  <a href="mailto:harshitasinghsrmcem@gmail.com">
-    <img src="https://img.shields.io/badge/Email%20Me-FF0000?style=for-the-badge&logo=gmail&logoColor=white" alt="Email Me">
-  </a>
-</p>
+  <script>
+    const text = "I am a Web Developer, Coder, and Tech Enthusiast.";
+    let i = 0;
+    function typingEffect() {
+      if (i < text.length) {
+        document.getElementById("typing").innerHTML += text.charAt(i);
+        i++;
+        setTimeout(typingEffect, 100);
+      }
+    }
+    typingEffect();
+  </script>
+
+</body>
+</html>
